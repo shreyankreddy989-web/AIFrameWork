@@ -25,8 +25,10 @@ public class LoginpageTests {
         driver.get("https://google.com");
         driver.findElement(By.name("q")).sendKeys("testing mini bytes");
 
-        Thread.sleep(6000);
+        Thread.sleep(5000);
            driver.quit();
+
+
 
     }
 
